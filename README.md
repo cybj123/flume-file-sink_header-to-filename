@@ -53,4 +53,4 @@ a1.sinks.k1.sink.rollInterval = 0
     </dependency>
   </dependencies>
   
-  欢迎大家提出问题，结局问题，提交，维护。
+  欢迎大家提出问题，结局问题，提交，维护..。
