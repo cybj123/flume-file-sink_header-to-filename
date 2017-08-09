@@ -45,7 +45,7 @@ a1.sinks.k1.sink.rollInterval = 0
       <artifactId>flume-ng-core</artifactId>  
       <version>${flume.version}</version>  
     </dependency>  
-      <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
     <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
