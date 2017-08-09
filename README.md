@@ -23,10 +23,14 @@ a1.sinks.k1.sink.rollInterval = 0
 
 以上是部分配置文件，在i5拦截器中会拦截body中 {type:aaa} 这样的字符串并且放入到header中，header中会增加  log_type=aaa 这样的键值对，
 那么这类日志生成的文件名就是aaa.20170808 这样的日志文件。 
+
 应用场景：
+
 在同一tomcat日志中输出的日志信息，由于类型不同,在传输后会分发到不同的日志文件中，
- body中 添加{type:aaa} 发送到aaa文件
- body中 添加{type:bbb} 发送到bbb文件
+
+ body中 添加{type:aaa} 发送到aaa.20170808文件
+ 
+ body中 添加{type:bbb} 发送到bbb.20170808文件
 
 我编译时的pom文件。
 ```
@@ -54,4 +58,4 @@ a1.sinks.k1.sink.rollInterval = 0
     </dependency>
   </dependencies>
 ```
-  欢迎大家提出问题，结局问题，提交，维护..。
+  欢迎大家提出问题，解决问题，提交，维护..。
