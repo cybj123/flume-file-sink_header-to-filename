@@ -29,7 +29,7 @@ a1.sinks.k1.sink.rollInterval = 0
  body中 添加{type:bbb} 发送到bbb文件
 
 我编译时的pom文件。
-   <properties>
+  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <flume.version>1.7.0</flume.version>
   </properties>
@@ -39,8 +39,7 @@ a1.sinks.k1.sink.rollInterval = 0
       <groupId>org.apache.flume</groupId>  
       <artifactId>flume-ng-sdk</artifactId>  
       <version>${flume.version}</version>  
-    </dependency>  
-  
+    </dependency> 
     <dependency>  
       <groupId>org.apache.flume</groupId>  
       <artifactId>flume-ng-core</artifactId>  
